@@ -9,7 +9,7 @@ import { ListResponseModel } from '../models/listResponseModel';
 })
 export class CategoryService {
 
-  apiUrl = 'http://localhost:44363/api/categories/getall';
+  apiUrl = 'http://localhost:4208/api/categories/getall';
   
   constructor(private httpClient: HttpClient) { }
 
